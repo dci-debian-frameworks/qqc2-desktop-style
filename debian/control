@@ -18,7 +18,14 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/qqc2-desktop-style.git
 
 Package: qml-module-org-kde-qqc2desktopstyle
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qtgraphicaleffects,
+         qml-module-qtqml-models2,
+         qml-module-qtquick-controls2,
+         qml-module-qtquick-templates2,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt Quick Controls 2: Desktop Style
  Small style written in QML for QtQuickControls2 intended to be used
  by default in QQC2-based apps when used in the Plasma desktop
