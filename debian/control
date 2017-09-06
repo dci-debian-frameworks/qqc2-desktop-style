@@ -31,6 +31,7 @@ Description: Qt Quick Controls 2: Desktop Style
  by default in QQC2-based apps when used in the Plasma desktop
 
 Package: libkf5qqc2desktopstyle-dev
+Section: libdevel
 Architecture: any
 Depends: qml-module-org-kde-qqc2desktopstyle (= ${binary:Version}),
          ${misc:Depends},
