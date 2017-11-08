@@ -21,7 +21,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/qqc2-desktop-style.git
 
 Package: qml-module-org-kde-qqc2desktopstyle
 Architecture: any
-Depends: qml-module-qtgraphicaleffects,
+Depends: qml-module-org-kde-kirigami2,
+         qml-module-qtgraphicaleffects,
          qml-module-qtqml-models2,
          qml-module-qtquick-controls2,
          qml-module-qtquick-templates2,
