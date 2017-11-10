@@ -41,8 +41,8 @@ Architecture: any
 Depends: qml-module-org-kde-qqc2desktopstyle (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: qml-module-org-kde-qqc2desktopstyle (<< ${binary:Version}~ciBuild)
-Replaces: qml-module-org-kde-qqc2desktopstyle (<< ${binary:Version}~ciBuild)
+Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.40.0)
+Replaces: qml-module-org-kde-qqc2desktopstyle (<< 5.40.0)
 Description: Qt Quick Controls 2: Desktop Style
  Small style written in QML for QtQuickControls2 intended to be used
  by default in QQC2-based apps when used in the Plasma desktop
