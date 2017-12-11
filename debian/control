@@ -17,8 +17,8 @@ Build-Depends: cmake (>= 2.8.12),
                qtquickcontrols2-5-dev
 Standards-Version: 3.9.6
 Homepage: https://cgit.kde.org/qqc2-desktop-style.git/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/qqc2-desktop-style.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/qqc2-desktop-style.git
+Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/frameworks/qqc2-desktop-style.git
+Vcs-Git: git://anonscm.debian.org/git/pkg-kde/frameworks/qqc2-desktop-style.git
 
 Package: qml-module-org-kde-qqc2desktopstyle
 Architecture: any
